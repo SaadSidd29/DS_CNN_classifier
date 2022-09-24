@@ -8,6 +8,7 @@ package_name = "deepClassifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",    ## .gitkeep is like a placeholder just to create empty folder structure
+    f"src/{package_name}/__init__.py",
     f"src/{package_name}/components/__init__.py",
     f"src/{package_name}/config/__init__.py",
     f"src/{package_name}/utils/__init__.py",
